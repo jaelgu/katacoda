@@ -26,9 +26,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "minikube-running"
+    "imageid": "dotnet-docker"
   }
 }
