@@ -2,7 +2,7 @@
   "title": "Test",
   "description": "test test",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "20 minutes",
   "details": {
     "steps": [
       {
@@ -29,6 +29,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "dotnet-docker"
+    "imageid": "ubuntu:2004"
   }
 }
