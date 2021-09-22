@@ -6,13 +6,15 @@ Download the smiles data with molecular.
 
 Run server with Docker.
 
-`docker run -d \
+```
+docker run -d \
 -v /root/data:/mols_data \
 -p 5000:5000 \
 -e "MILVUS_HOST=localhost" \
 -e "MILVUS_PORT=19530" \
 -e "MYSQL_HOST=localhost" \
-milvusbootcamp/mols-search-webserver:2.0.0`{{execute}}
+milvusbootcamp/mols-search-webserver:2.0.0
+```{{execute}}
 
 Refer to the following table for the parameter description:
 
