@@ -1,4 +1,4 @@
-#### Start Milvus
+#### 1. Start Milvus
 
 This demo uses Milvus 2.0.0-RC6 Standalone version. You can refer to [milvus.io](https://milvus.io/docs/v2.0.0/install_standalone-docker.md) to learn about how to install Milvus 2.0. The following steps show how to install Milvus Standalone with docker-compose.
 
