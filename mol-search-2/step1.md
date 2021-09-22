@@ -13,7 +13,7 @@ Then go to the folder containing docker-compose.yml & start Milvus standalone:
 
 Check Milvus status:
 
-`docker-compose logs`{{execute}}
+`docker-compose ps`{{execute}}
 
 #### Start Mysql
 Start Mysql in a docker container
