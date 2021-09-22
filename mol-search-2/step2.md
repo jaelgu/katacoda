@@ -8,12 +8,10 @@ Run server with Docker.
 
 `docker run -d \
 -v /root/data:/mols_data \
---network my-net \
---ip 10.0.0.3 \
 -p 5000:5000 \
--e "MILVUS_HOST=10.0.0.2" \
+-e "MILVUS_HOST=localhost" \
 -e "MILVUS_PORT=19530" \
--e "MYSQL_HOST=10.0.0.2" \
+-e "MYSQL_HOST=localhost" \
 milvusbootcamp/mols-search-webserver:2.0.0`{{execute}}
 
 Refer to the following table for the parameter description:
