@@ -6,4 +6,5 @@ Click `+` to the right of the `Terminal`, then Select port to view on Host 1 wit
 
 
 For example:
+
 `docker run -d -p 8001:80 -e API_URL=https://2886795296-5000-cykoria04.environments.katacoda.com milvusbootcamp/mols-search-webclient:1.0`{{execute}}
