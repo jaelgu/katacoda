@@ -10,7 +10,8 @@ Click `+` to the right of the `Terminal`, then View HTTP port 80 on Host 1 to sh
 - Load data
   - Click `upload` button and select a csv file from local (you can get sample csv file from Step 2)
   - If using a customized csv file, please refer the sample file for data format.
-  - After data is successfully loaded, you will see a number of data.
+  - Upload could take a while depending on data size.
+  - After data is successfully loaded, you will see total row count with a message "Successfully loaded data: xx".
 
 
 - Retreve similar questions
