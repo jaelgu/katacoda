@@ -9,3 +9,6 @@ Download example data with insurance related questions & answers. Download to yo
 Run server with Docker & your host address.
 
 `docker run -d -p 8000:8000 -e "MILVUS_HOST=host_address" -e "MILVUS_PORT=19530" -e "MYSQL_HOST=host_address" milvusbootcamp/qa-chatbot-server:v1`
+
+For example, my host address is 172.17.0.21:
+`docker run -d -p 8000:8000 -e "MILVUS_HOST=172.17.0.21" -e "MILVUS_PORT=19530" -e "MYSQL_HOST=172.17.0.21" milvusbootcamp/qa-chatbot-server:v1`{{execute}}
