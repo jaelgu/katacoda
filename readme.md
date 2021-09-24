@@ -1,6 +1,6 @@
 # Milvus Katacoda
 ## Milvus
-- version: milvus2.0-rc5-hotfix1
+- version: milvus 2.0
 - standalone
 - install method: docker-compose
 ## Katacoda
