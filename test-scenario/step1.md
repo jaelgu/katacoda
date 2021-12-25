@@ -4,13 +4,12 @@
 
 `git clone https://github.com/towhee-io/towhee.git`{{execute}}
 
-```
-cd towhee
-python setup.py install
-```{{execute}}
+`cd towhee`{{execute}}
 
+`python setup.py install`{{execute}}
 
-```
-python
-from towhee import pipeline
-```{{execute}}
+`vim test.py`{{execute}}
+
+`from towhee import pipeline`{{execute}}
+
+`:wq`{{execute}}
