@@ -4,13 +4,9 @@
 
 `wget https://github.com/towhee-io/towhee-docs/raw/main/static/img/logo.png`{{execute}}
 
-`git clone https://github.com/towhee-io/towhee.git`{{execute}}
+`pip install -i https://test.pypi.org/simple/ towhee==0.3.1.dev19`{{execute}}
 
-`cd towhee`{{execute}}
 
-`python3 setup.py install`{{execute}}
-
-`cd ../`{{execute}}
 
 `python3`{{execute}}
 
