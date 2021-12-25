@@ -8,16 +8,18 @@
 
 
 
-`python3`{{execute}}
+`vim`{{execute}}
 
-`from towhee import pipeline`{{execute}}
+```
+from towhee import pipeline
+p=pipeline('towhee/image-embedding-resnet50')
+img = './logo.png'
+emb = p(img)
+emb
+```
 
-`p=pipeline('towhee/image-embedding-resnet50)`{{execute}}
-
-`img = './logo.png'`{{execute}}
-
-`emb = p(img)`{{execute}}
-
-`emb`{{execute}}
-
-`exit()`{{execute}}
+`from towhee import pipeline
+p=pipeline('towhee/image-embedding-resnet50')
+img = './logo.png'
+emb = p(img)
+emb`{{execute}}
